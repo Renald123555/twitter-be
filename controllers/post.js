@@ -129,6 +129,7 @@ const insertNewPost = async (req, res) => {
       updated_at: currentTimestamp,
       category: body.category,
       isAds: body.isAds,
+      isCommercial: body.isCommercial,
       dateInput: body.dateInput
     })
     const result = "succes";
