@@ -76,7 +76,7 @@ const getAllPost = async (req, res) => {
 const insertNewPost = async (req, res) => {
   const body = req.body
   const currentTimestamp = moment().format('YYYY-MM-DD HH:mm:ss')
-  console.log("backend", body)
+  // console.log("backend", body)
   let message = ''
   let error = ''
   const data = ''
